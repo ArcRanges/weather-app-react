@@ -110,6 +110,7 @@ function WeatherList() {
             .then((res) => res.json())
             .then((res)=> {
                 setData(res.current);
+                console.log(res.current);
                 setForecastData(res.daily)
             })
             .catch((err) => {
@@ -160,7 +161,7 @@ function WeatherList() {
                                         {weather.description}
                                         </Span>
                                     </IconContainer>
-                                    <H1>16&#176;C</H1>
+                                    <H1>{getCentigrade(data.temp)}&#176;C</H1>
                                     <LocationContainer>
                                         <H2>{location.city}, {location.country_code}</H2>
                                         <Span>
