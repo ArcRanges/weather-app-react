@@ -16,13 +16,13 @@ const Wrapper = styled.div`
     width: 100vw;
 `
 const TodayContainer = styled.div`
-    height: 100vh;
+    margin-top: 30%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding: 10rem;
+    padding: 1rem 1rem;
 `
 
 const OtherHalf = styled.div`
@@ -173,7 +173,14 @@ function WeatherList() {
                                         </Span>
                                     </LocationContainer>
                                 </CenteredDivRow>
+                                
                             </TodayContainer>
+
+                            <CenteredDivRow>
+                                <Span>
+                                    By <a target="_blank" href="https://github.com/ArcRanges" style={{color: 'white'}}>Arc Ranges</a>
+                                </Span>
+                            </CenteredDivRow>
                         </Col>
                         <Col xs={{ size: '12'}} md={{ size: '4'}} style={{paddingRight: 0,}}>
                             <OtherHalf>
