@@ -7,6 +7,7 @@
 - [Weather Icons](https://github.com/erikflowers/weather-icons) - Icons
 - [Styled Components](https://styled-components.com/) - Styling
 - [Netlify](netlify.com) - Hosting
+- [Design Inspiration](https://dribbble.com/shots/7118235-Weather-DailyUI-037)
 ## Instructions
 ```
 git clone <this repo>
